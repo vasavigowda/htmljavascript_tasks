@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Change the Background Color Dynamically with JavaScript</title>
+</head>
+<p id="demo" onclick="myfunction()">red</p>
+<p id="demo1" onclick="myfunction1()">blue</p>
+<p id="demo2" onclick="myfunction2()">green</p>
+<body>
+    <script type="text/javascript">
+    	function myfunction(){
+    		if(document.getElementById("demo").style.backgroundColor=="red"){
+    			document.getElementById("demo").style.backgroundColor="white";
+    		}
+    		else{
+    			document.getElementById("demo").style.backgroundColor="red";
+    		}
+    	}
+    	function myfunction1(){
+    		if(document.getElementById("demo1").style.backgroundColor=="blue"){
+    			document.getElementById("demo1").style.backgroundColor="white";
+
+    		}
+    		else{
+    			document.getElementById("demo1").style.backgroundColor="blue";
+    		}
+    	}
+    	function myfunction2(){
+    		if(document.getElementById("demo2").style.backgroundColor=="green"){
+    			document.getElementById("demo2").style.backgroundColor="white";
+
+    		}
+    		else{
+    			document.getElementById("demo2").style.backgroundColor="green";
+    		}
+    	}
+    </script>
+</body>
+</html> 
+<!-- <h1 id="demo" onclick ="mouseOver()" onclick ="mouseOut()">red</h1>
+		<h2 id="demo1" onclick="mymouse()" ondblclick ="mouseOut()">blue</h2>
+		<h3 id="demo2" onclick="mouseOver2()" ondblclick ="mouseOut()">green</h3>
+		<script type="text/javascript">
+			function mouseOver() {
+			  document.getElementById("demo").style.backgroundColor = "red";
+
+				}
+				function mouseOut() {
+			 document.getElementById("demo").style.backgroundColor = "white";
+				}
+				function mymouse() {
+			  document.getElementById("demo1").style.backgroundColor = "blue";
+				}
+				
+				function mouseOver2() {
+			  document.getElementById("demo2").style.backgroundColor = "green";
+				}
+				
+			</script> -->

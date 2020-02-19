@@ -1,0 +1,14 @@
+.img{
+	size: 75% 50%
+}
+.h1{
+	text-align: center;
+	color: violet;
+}
+.des{
+	color: "red";
+}
+.tabl{
+	color: red;
+	background-image:url("img8");
+}

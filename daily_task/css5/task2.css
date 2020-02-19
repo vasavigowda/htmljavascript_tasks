@@ -1,0 +1,6 @@
+body{
+	--marg:70px 5px 24px 33px;
+}
+.price1{
+	margin:var(--marg);
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		!DOCTYPE html>
+<html>
+	<head>
+		<title>Data entry</title>
+		<script type="text/javascript">
+
+		function addRow()
+		{
+			var fname = document.getElementById('fname').value;
+			var lname = document.getElementById('lname').value;
+			var email = document.getElementById('email').value;
+			var phone= document.getElementById('phone').value;
+
+			var table = document.getElementsByTagName('table')[0];
+
+			var newRow = table.insertRow(1);
+
+			var cel1 = newRow.insertCell(0);
+			var cel2 = newRow.insertCell(1);
+			var cel3 = newRow.insertCell(2);
+			var cel4 = newRow.insertCell(3);
+
+			cel1.innerHTML = fname ;
+			cel2.innerHTML = lname ;
+			cel3.innerHTML = email ;
+			cel4.innerHTML = phone ;
+		}
+	</script>
+	</head>
+	
+	<body>
+		First Name :<input type="text" name="fname" id="fname"><br><br>
+		Last Name  :<input type="text" name="lname" id="lname"><br><br>
+		Email      :<input type="text" name="Email" id="email"><br><br>
+		Phone No   :<input type="text" name="phone"  id="phone"><br><br>
+
+		<button onclick ="addRow();">Submit</button><br><br>
+		<table border="1">
+			<tr>
+				<th>First name</th>
+				<th>Last Name</th>
+				<th>Email Id</th>
+				<th>Phone no</th>
+			</tr>
+			<tr>
+				<td>Divya</td>
+				<td>Shree</td>
+				<td>divya@gmail.com</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Divya</td>
+				<td>Shree</td>
+				<td>divya@gmail.com</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Divya</td>
+				<td>Shree</td>
+				<td>divya@gmail.com</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Divya</td>
+				<td>Shree</td>
+				<td>divya@gmail.com</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Divya</td>
+				<td>Shree</td>
+				<td>divya@gmail.com</td>
+				<td>25</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+
+
+
+Type a message
+
+	</body>
+</html>

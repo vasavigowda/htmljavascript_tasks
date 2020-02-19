@@ -1,0 +1,70 @@
+.img1{
+	    border-radius: 365px;
+    height: 156px;
+    width: 156px;
+    padding: 246px;
+    margin-left: 308px;
+}
+.p{
+	padding-left: 49%;
+    margin-top: -18%;
+    color: red;
+	}
+	.body{
+		background-image:  url("../images/img1.jpeg");
+	}
+	.A{
+		text-align: center;
+		position: relative;
+		padding-right: 100px;
+		margin-left: 100px;
+	}
+	.a{
+
+		height: 10px;
+		width: 20px;
+		border: solid;
+		padding: 60px 40px 50px 370px;
+         margin: 40px 50px 45px 28px;
+		border-radius:21px 155px 21px 155px;
+	}
+   .b{
+	height: 10px;
+		width: 20px;
+		border: solid;
+		padding: 60px 40px 50px 370px;
+    margin: 40px 50px 45px 219px;
+    border-radius:50px 144px 50px 144px;
+}
+.c{
+	height: 10px;
+		width: 20px;
+		border: solid;
+		padding: 60px 40px 50px 370px;
+         margin: 40px 50px 45px 28px;
+		border-radius:60px 240px 60px 240px
+}
+.d{
+	height: 10px;
+		width: 20px;
+		border: solid;
+		padding: 60px 40px 50px 370px;
+    margin: 40px 50px 45px 219px;
+    border-radius:17px 140px 17px 140px;
+}
+.search{
+	height: 10px;
+    width: 10px;
+    border: solid;
+    padding: 2px 131px 100px 426px;
+    margin: 54px 50px 45px 28px;
+    border-radius: 200px;
+}
+.button{
+	border-radius: 0px 30px 30px 0px;
+    height: 50px;
+    width: 50px;
+    margin-left: 158px;
+    border: solid;
+    padding: 15px 41px 38px 51px;
+}

@@ -1,0 +1,18 @@
+.grid-container{
+	display:grid;
+	grid-template-columns:max-content 50px 100px;	
+	background-color: #34cc22;
+	grid-gap: 30px;
+	padding: 20px;
+width: 400px;
+}
+.item1{
+	background-color: #3c4b5a;
+	padding: auto;
+
+}
+.item2{
+	background-color: #b2c7d9;
+	grid-template-rows:600px;
+	grid-column-start: 3;
+}

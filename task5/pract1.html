@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function demo(){
+		var strText = document.getElementById("user_input").value;          
+        var strText1 = document.getElementById("user_input1").value;
+        var strText2 = document.getElementById("user_input2").value;          
+        var strText3 = document.getElementById("user_input3").value;
+        
+			var table = document.getElementById("demo")[0];
+
+			 var newrow = table.insertRow(1);
+
+			 var cell1 = newrow.insertCell(0);
+			  var cell2 = newrow.insertCell(1);
+			  var cell3 = newrow.insertCell(2);
+			  var cell4 = newrow.insertCell(3);
+
+			  cell1.innerHTML = strText;
+			  cell2.innerHTML = strText1;
+			  cell3.innerHTML = strText2;
+			  cell4.innerHTML = strText3;		  
+					}
+ 	</script>
+				<form>
+			  	<label>First name</label>
+			    <input type="text" name="message" id="user_input"><br><br>
+			     <label>Last name</label>
+			    <input type="text" name="message" id="user_input1"><br><br>
+			     <label>Email-id</label>
+			    <input type="text" name="message" id="user_input2"><br><br>
+			     <label>Phone num</label>
+			    <input type="text" name="message" id="user_input3"><br><br>
+		 		</form>
+		 		<input type="submit" onclick="demo();">
+		 		<p id="display"></p>
+		 		<table id="demo" border="1">
+		 			<tr>
+		 				<th>First Name:</th>
+		 				<th>last name:</th>
+		 				<th>Email-id:</th>
+		 				<th>Phone num:</th>
+		 			</tr>
+		 			<tr>
+		 				<td>vasavi</td>
+		 				<td>gowda</td>
+		 				<td>vasavi@gmial.com</td>
+		 				<td>9876543210</td>
+		 			</tr>
+		 			
+		 		</table>
+	</body>
+</html>

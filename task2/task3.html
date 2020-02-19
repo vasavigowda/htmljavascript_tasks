@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>avrg</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var m1=70;
+		var m2=60;
+		var m3=80;
+		avrg =(m1+m2+m3)/3;
+		var grade;
+		document.write(avrg + "<br>");
+		if (avrg > 70){
+		document.write("gradeA");
+		}
+		else if (avrg > 60){
+		document.write("gradeB");
+		}
+		else if (avrg > 50){
+		document.write("gradec");
+		}
+		else if (avrg > 40){
+		document.write("graded");
+		}
+
+		var name1 = 70;
+		var name2 = 60;
+		var name3 = 80;
+		var name4 = 90;
+		var average= ( name1 + name2 + name3 + name4) / 4 ;
+		document.write(average +"</br>");
+		var final = (average >=name1 ) ? " name1 grade is c ":"grade name1 d";
+		document.write(final+"</br>");
+		var final1 = (average < name2 ) ? " name2 grade is d ":" name2 grade  d";
+		document.write(final1 +"</br>");
+		var final2 = (average < name3 ) ? " name3 grade is b ":" name grade name1 c";
+		document.write(final2 +"</br>");
+		var final3 = (average < name4 ) ? " name4 grade is a ":" name3 grade name1 b";
+		document.write(final3 +"</br>");
+	
+	</script>
+</body>
+</html>

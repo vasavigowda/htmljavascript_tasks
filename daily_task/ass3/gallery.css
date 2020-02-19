@@ -1,0 +1,107 @@
+ul{
+	margin: 20px;
+	padding: 20px;
+	background-color: grey;
+	list-style-type: none;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	padding: 7px 7px;
+	text-decoration:none;
+}
+li a:hover{
+background-color: blue;
+color: white;
+}
+
+.bar1{
+width: 40px;
+height: 5px;
+margin-left: 335px;
+
+margin-bottom: -18px;
+background-color: black;
+}
+.bar2{
+width: 40px;
+height: 5px;
+margin-left: 336px;
+background-color: black;
+}
+.mail{
+	padding-right: 76px;
+	margin-left: 30px;
+}
+.password{
+padding-right: 53px;
+	margin-left: 30px;
+}
+.name{
+padding-right: 30px;
+	margin-left: 30px;
+}
+.right1{
+padding-right: 60px;
+margin: 10px 20px 30px 30px;		
+}
+.right2{
+padding-right: 10px;
+padding-left:3px;
+margin: 10px 20px 30px 30px;		
+}
+.right3{
+padding-right: 30px;
+margin: 10px 20px 30px 30px;		
+}
+.right4{
+padding-right: 7px;
+padding-left:-15px;
+margin: 10px 20px 30px 30px;		
+}
+.left1{
+padding-right: 32px;
+margin: 10px 20px 30px 30px;
+		
+}
+.left2{
+padding-right: -1px;
+margin: 10px 20px 30px 30px;
+		
+}
+.left3{
+padding-right: -1px;
+    margin: 15px 2px 29px 28px;
+}
+.left4{
+padding-right: -1px;
+margin: 10px 20px 30px 30px;
+}
+.a{
+	padding: 30px;
+	
+}
+.b{
+	padding: 30px;
+}
+.c{
+padding: 30px;
+}
+.d{
+padding: 30px;
+}
+.testimonials{
+	padding: 10px 20px 30px 40px;
+	margin: 10px 20px 30px 40px;
+}
+.user{
+	background-color: blue;
+	
+}
+.create{
+	background-color: blue;
+	padding-left: 30px;
+	padding-right: 30px;
+}

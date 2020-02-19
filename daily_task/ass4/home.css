@@ -1,0 +1,86 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color:white;
+  position: fixed;
+  top: 0;
+}
+li{
+	background-color:#39a3c6;
+	list-style-type: none;
+}
+li{
+	float: right;
+}
+li a{
+	display: block;
+	padding: 18px 173px 17px 28px;
+	text-decoration:none;	
+}
+li a:hover,{
+background-color: violet;
+color: white;
+}
+
+.text{
+	font-size: 15px;
+	padding: 25px 50px 22px 105px;
+    margin: 33px 4px 43px 30px;
+}
+
+.table{
+    margin: 115px 105px 26px 80px;
+   background-image:url("download1.jpeg");
+   background-repeat: no-repeat;
+			background-size: cover;
+}
+.footer{
+	margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color:grey;
+  position: fixed;
+  bottom: 0;
+}
+.visit{
+	padding: 0px 78px 0px 70px;
+    margin: 7px 0px 15px 86px;
+}
+.call{
+padding: 0px 78px 0px 70px;
+    margin: 7px 0px 15px 86px;
+}
+.contact{
+padding: 0px 78px 0px 70px;
+    margin: 7px 0px 15px 86px;
+}
+.advisor{
+padding: 0px 78px 0px 70px;
+    margin: 7px 0px 15px 86px;
+}
+.img1{
+padding: 11px 87px 4px 200px;
+    margin: 7px 5px 19px 82px;
+}
+.img2{
+padding: 11px 87px 4px 197px;
+    margin: 7px 5px 19px 82px;	
+}
+.abt_paragraph{
+padding: 11px 87px 4px 89px;
+    margin: 7px 5px 19px 82px;
+}
+.abt_paragraph1{
+padding: 11px 87px 4px 89px;
+    margin: 7px 5px 19px 82px;
+}
+.client_table{
+	padding: 46px 142px 62px 155px;
+    margin: 60px 128px 16px 86px;
+}
+.testimonial{
+	padding: 0px 197px 44px 134px;
+    margin: 64px 150px 5px 65px;
+}

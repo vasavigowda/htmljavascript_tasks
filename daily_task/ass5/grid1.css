@@ -1,0 +1,27 @@
+.grid-container{
+	display: grid;
+	grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px;
+	grid-template-rows: 60px 60px 60px 60px 60px;
+	grid-gap: 10px;
+	width: 600px;
+	border:1px solid;
+	margin-top:100px;
+	margin-left: 200px;
+	padding: 70px;
+}
+.grid-red{
+	background-color: #ff6666;
+}
+.grid-blue{
+	background-color: #3399ff;
+	grid-column: span 2;
+	}
+	.grid-green{
+	background-color: #73e600;
+	grid-row: span 2;
+}
+.grid-yellow{
+	background-color: #ffb84d;
+	grid-column: span 2;
+	grid-row: span 2;
+}

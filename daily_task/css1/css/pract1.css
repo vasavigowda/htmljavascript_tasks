@@ -1,0 +1,26 @@
+
+
+		 h2{
+			color: blue;
+			background-color: yellow;
+			float:right;
+
+
+		}
+		.sidebar{
+			width: 100px;
+
+		}
+		.cs
+		{
+			color:red;
+			background-color:green;
+		}
+	body{
+		background-image:url("../images/img1.jpg");
+		background-position: center;
+		background-size: 500px 500px;
+		background-repeat: no-repeat;
+
+	}
+	

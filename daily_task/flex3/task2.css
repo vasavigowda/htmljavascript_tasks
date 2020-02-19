@@ -1,0 +1,42 @@
+.flex3-container{
+	display: flex;
+	justify-content: space-around;
+
+}
+.flex1{
+	height: 350px;
+	width: 100px;
+	
+	 box-shadow: 3px 3px grey;
+}
+.flex2{
+	height: 330px;
+	width: 100px;
+	 box-shadow: 3px 3px grey;
+	background-color: #edccf0;
+}
+.flex3{
+	height: 360px;
+	width: 100px;
+	 box-shadow: 3px 3px grey;
+}
+.flex4{
+	height: 330px;
+	width: 100px;
+ 	=-box-shadow: 3px 3px grey;
+	background-color: #edccf0;
+}
+.flex5{
+	height: 350px;
+	width: 100px;
+	 box-shadow: 3px 3px grey;
+}
+.flex6{
+	height: 340px;
+	width: 100px;
+	 box-shadow: 3px 3px grey;
+	background-color: #edccf0;
+}
+button{
+	background-color:  #5e635a;
+}

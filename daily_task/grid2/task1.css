@@ -1,0 +1,163 @@
+.grid1-container{
+	display: grid;
+	grid-template-rows: 40px;
+	grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px; 
+	grid-gap: 10px;
+}
+.grid1{
+	background-color: grey;
+	padding: 5px;
+	grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px;
+}
+.grid2{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 2;
+}
+.grid3{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 3;
+}
+.grid55{
+	background-color: grey;
+	grid-column: span 4;
+}
+.grid4{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 4;
+}
+.grid5{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 5;
+}
+.grid56{
+	background-color: grey;
+	grid-column: span 6;
+}
+.grid61{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 6;
+}
+.grid62{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 6;
+}
+.grid63{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 4;
+}
+.grid71{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 6;
+}
+.grid72{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 6;
+}
+.grid73{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 4;
+}
+.grid81{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 8;
+}
+.grid82{
+	background-color: grey;
+	padding: 5px;
+	grid-column:span 8;
+}
+.grid9{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 1;
+	grid-row: 2;
+}
+.grid10{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 2;
+}
+.grid11{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 3
+}
+.grid12{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 4;
+}
+.grid13{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 5;
+}
+.grid14{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 6;
+}
+.grid15{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 7;
+}
+.grid16{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 8;
+}
+.grid17{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 9;
+}
+.grid18{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 10;
+}
+.grid19{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 11;
+}
+.grid20{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 12;
+}
+.grid21{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 13;
+}
+.grid22{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 14;
+}
+.grid23{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 15;
+}
+.grid24{
+	background-color: grey;
+	padding: 5px;
+	grid-column: 16;
+}
+
+
+

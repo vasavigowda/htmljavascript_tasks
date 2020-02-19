@@ -1,0 +1,40 @@
+.navbar{
+ background-color: #71687d;
+ color:white;
+ padding:10px 20px;
+ width:1245px;
+ margin: 1px 0px;
+
+}
+.nav1{
+	padding:50px;
+	text-decoration: none;
+}
+.nav2{
+padding:130px;
+text-decoration: none;
+}
+.nav3{
+	padding:150px;
+	text-decoration: none;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-gap: 100px;
+	margin: 100px;	
+}
+span{
+	color:red;
+	font-size: 20px;
+}
+img{
+	height: 250px;
+	width: 250px;
+}
+h4{
+	color: red;
+}
+a{
+	text-decoration: none;
+}

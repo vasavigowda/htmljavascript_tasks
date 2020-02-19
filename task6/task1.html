@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<p id="demo"></p>
+	<script>
+		var person = {
+		firstName:"mark",
+	  	lastName: "jhonny",
+	  fullName: function() {
+	    return this.firstName + " " + this.lastName;
+	  }
+	}
+	var person1 = {
+	  firstName:"john",
+	  lastName: "smith",
+	}
+	var obj = person.fullName.apply(person1); 
+	document.getElementById("demo").innerHTML = obj;
+	</script>
+
+	</body>
+</html>

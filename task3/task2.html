@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>leap year</title>
+		<input type="text" id="year"></input>
+		<button onclick="check_leapyear()">Check</button>	
+	</head>
+	<body>
+    <script>
+	function check_leapyear(){
+		var year;
+ 
+		year = document.getElementById("year").value;
+		if( (0 == year % 4) && (0 != year % 100) )
+			// || (0 == year % 400) )
+		{
+			document.write(year+" is a leap year" + "<br>");  
+			document.write("It as a 366 days");  
+		}
+		else
+		{
+			document.write(year+" is not a leap year" + "<br>"); 
+			document.write("It as a 365 days"); 
+		}
+	}
+</script>
+
+</body>
+</html>

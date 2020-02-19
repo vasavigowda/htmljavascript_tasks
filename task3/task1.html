@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<p id="demo"></p>
+		<script>
+		function myfunction(year){
+			var x = 2019-year;
+			if(x>=65)
+			{
+				var z=x-65;
+				document.write("Age of a person" + x +"<br>")
+				return document.write("the person is retired "+"<br>");
+			}
+			else(x<65)
+			{
+				var z=65-x;
+				document.write("Age of a person" + x +"<br>")
+				return document.write("the person is not retired"+"<br>");
+			}
+		}
+		var john=myfunction(1997);
+		var smith=myfunction(2000);
+		var hack=myfunction(1989);
+	</script>
+	</body>
+</html>

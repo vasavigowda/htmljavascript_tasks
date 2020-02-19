@@ -1,0 +1,33 @@
+.p1{
+
+	
+	padding:10px 10px;
+	margin:10px 10px;
+	border-radius: 680px 680px 250px 250px;
+	background-image: url("../images/img1.jpeg");
+
+}
+.p2{
+padding:10px 10px;
+margin:10px 10px;
+background-color: yellow;
+border-radius: 60px 20px 60px;;
+}
+.p3{
+
+padding:10px 10px;
+margin:10px 10px;
+background-color: blue;
+border-radius: 29px 45px;;
+}
+.img{
+border-radius:70px;
+height: auto;
+width: 100%;
+max-width: 50%;
+margin-left: 590px;
+}
+.img1{
+	max-width:100%;
+	height:auto;
+}

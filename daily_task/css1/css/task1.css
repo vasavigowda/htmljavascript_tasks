@@ -1,0 +1,40 @@
+.label{
+	
+	color: purple;
+	list-style-type: none;
+	border: hidden;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	background-color: grey;
+   
+}
+a{
+	margin-left: 10px;
+}
+
+	
+.h1-tag{
+	text-align: center;
+	position: center;
+	color:purple;
+}
+.wrapper{
+	color: purple;
+	text-align: bottom;
+  left: 300px;
+  top: 350px;
+
+}
+.form{
+	position: absolute;
+    left: 300px;
+    top: 350px;
+
+
+}
+.img{
+	height:300px;
+	width: 100%;
+	/*margin-left: 40%;*/
+}

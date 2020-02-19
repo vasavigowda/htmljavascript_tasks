@@ -1,0 +1,185 @@
+.about{
+	border: hidden;
+	margin-left:50%;
+}
+.wrap{
+    color: purple;
+	padding-right: 10%
+	border: hidden;
+	padding: 10px;
+	margin: 35px;
+	background-color: grey;
+	list-style-type:none;
+	display: block;
+}
+.wrap hover {
+  background-color: #555;
+  color: white;
+}
+.img{
+	height: 20px;
+	padding-left: 460px;
+}
+.img1{
+height: 20px;
+	padding-left: 90%;
+}
+.img2{
+	height: 20px;
+}
+.icons{
+	padding-left: 90%;
+	height: 20px;
+}
+.image{
+width: 30%;
+height: 40%;
+}
+.paragraph{
+border-style: hidden;
+padding: 20px;
+
+}
+.paragraph2{
+border-style: hidden;
+padding-left: 383px;
+
+}
+.paragraph3{
+border-style: hidden;
+padding-left: 379px;
+}
+.footer{
+padding-left: 70%
+}
+.form{
+	border: dashed;
+	padding: 30px;
+	margin: 20px;
+}
+.first{
+	padding-right: 20px;
+     margin-left: 200px;
+     margin-bottom: 20%
+}
+.second{
+	padding-right: 20px;
+	margin-left: 240px;
+}
+.address{
+      padding-right: 20px;
+   margin-left: 214px;
+}
+.mail{
+	padding-right: 20px;
+	margin-left: 229px;
+	
+}
+.gen{
+	padding-right: 42px;
+    margin-left: 206px;
+	
+
+}
+.lang{
+padding-right: 20px;
+    margin-left: 240px;
+}
+.lan{
+	padding-right: 20px;
+    margin-left: 332px;
+}.about{
+	border: hidden;
+	margin-left:50%;
+}
+.wrap{
+    color: purple;
+	padding-right: 10%
+	border: hidden;
+	padding: 10px;
+	margin: 35px;
+	background-color: grey;
+}
+.img{
+	height: 20px;
+	padding-left: 460px;
+}
+.img1{
+height: 20px;
+	padding-left: 90%;
+}
+.img2{
+	height: 20px;
+}
+.icons{
+	padding-left: 90%;
+	height: 20px;
+}
+.image{
+width: 30%;
+height: 40%;
+}
+.paragraph{
+border-style: hidden;
+padding: 20px;
+
+}
+.paragraph2{
+border-style: hidden;
+padding-left: 383px;
+
+}
+.paragraph3{
+border-style: hidden;
+padding-left: 379px;
+}
+.footer{
+padding-left: 70%
+}
+.form{
+	border: dashed;
+	padding: 30px;
+	margin: 20px;
+}
+.first{
+	padding-right: 20px;
+     margin-left: 200px;
+     margin-bottom: 20%
+}
+.second{
+	padding-right: 20px;
+	margin-left: 240px;
+}
+.address{
+      padding-right: 20px;
+   margin-left: 214px;
+}
+.mail{
+	padding-right: 20px;
+	margin-left: 229px;
+	
+}
+.gen{
+	padding-right: 42px;
+    margin-left: 206px;
+	
+
+}
+.lang{
+padding-right: 20px;
+    margin-left: 240px;
+}
+.lan{
+	padding-right: 20px;
+    margin-left: 332px;
+}
+.addr{
+	align-content: center;
+
+}
+.add{
+
+}
+.adrs{
+
+}

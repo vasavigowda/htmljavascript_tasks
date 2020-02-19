@@ -1,0 +1,28 @@
+.flex-container{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.imag1{
+width: 300px;
+
+}
+.paragraph{
+	display: flex;
+	justify-content: space-around;
+
+}
+.imag2{
+width: 300px;
+
+}
+.imag3{
+width: 300px;
+}
+span{
+	color: red;
+	font-size: 20px;
+}
+.p1{
+	color:blue;
+}
